@@ -1,0 +1,10 @@
+[package]
+name = "itch-to-arr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+stock-handler = { path = "../../crates/stock-handler" }
+common = { path = "../../crates/common" }
+core_affinity = "0.8.3"
+memmap2 = "0.9"

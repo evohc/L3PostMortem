@@ -1,0 +1,11 @@
+[package]
+name = "stock-handler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../../crates/common" }
+itch-parser = { path = "../../crates/itch-parser" }
+orderbook = { path = "../../crates/orderbook" }
+arrow = { version = "53.0", features = ["prettyprint"] }
+parquet = { version = "53.0", features = ["arrow"] }

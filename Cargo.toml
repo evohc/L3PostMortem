@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/common",
+    "crates/itch-parser",
+    "crates/orderbook",
+    "crates/stock-handler",
+    "apps/itch-to-arr",
+]
